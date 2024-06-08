@@ -228,6 +228,17 @@ footer div ul li a:hover {
     background-color: #FF008A;
 }
 
-.button{
-    
+.button {
+    background-color: #FF008A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 15px auto;
 }
+
