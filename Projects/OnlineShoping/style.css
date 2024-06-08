@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 body{
     background-color: #FFD9E0;
 }
@@ -33,6 +37,9 @@ img{
     border-radius: 25px;
 }
 
+main{
+    margin-bottom: 60px;
+}
 
 .menue{
     background-color: white;
@@ -48,7 +55,7 @@ img{
 }
 
 .style_div h2{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .style_div{
@@ -98,4 +105,129 @@ img{
 
 .first_column p{
     margin-left: 20px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white; 
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+footer div {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+footer div ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+}
+
+footer div ul li {
+    list-style: none; 
+}
+
+footer div ul li a {
+    text-decoration: none !important;
+    color: rgb(164, 164, 164); 
+    font-size: 24px; 
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    height: 100%;  
+}
+
+footer div ul li a:hover {
+    color: #007BFF; 
+}
+
+.product_div{
+    display: flex;
+    justify-content: center;
+}
+
+.product_div img{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.product_first_div{
+    margin-left: 25px;
+}
+
+.product_heading{
+    margin-bottom: 8px;
+}
+
+.product_para{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.product_size{
+    font-size: 22px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.product_size span{
+    margin-right: 25px;
+}
+
+.color_span{
+    display: flex;
+}
+
+.color_span div{
+    /* background-color: black; */
+    width: 30px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 25px;
+}
+
+.red{
+    background-color: #FF0000;
+    width: 25px !important;
+    height: 25px !important;
+    text-align: center;
+    margin: 2px !important;
+}
+
+.white{
+    background-color: white;
+    border: 3px solid #FF0000;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue{
+    background-color: #3300FF;
+}
+
+.pink{
+    background-color: #E963FF;
+}
+
+.orange{
+    background-color: #FF5E5E;
+}
+
+.darkPink{
+    background-color: #FF008A;
+}
+
+.button{
+    
 }
