@@ -229,7 +229,7 @@ footer div ul li a:hover {
 }
 
 .button {
-    background-color: #FF008A;
+    background-color: #EF7070;
     color: white;
     border: none;
     border-radius: 10px;
@@ -242,3 +242,74 @@ footer div ul li a:hover {
     margin: 15px auto;
 }
 
+.menue_arrow{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.myCart_product{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+}
+
+.myCart_product img{
+    width: 100px;
+    height: 130px;
+}
+
+.myCart_heading{
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.myCart_price{
+    font-size: 14px;
+    color: #838383;
+    margin-bottom: 8px;
+}
+
+.myCart_basic{
+    display: flex;
+    margin-top: 15px;
+}
+
+.myCart_color{
+    background-color: #ff002f;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.myCart_size{
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    margin-right: 20px;
+    text-align: center;
+    color: #EF7070;
+}
+
+.pricing{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pricing_name p{
+    color: rgb(89, 87, 87);
+    margin-bottom: 3px;
+}
+
+.pricing_ammount{
+    float: right !important;
+}
+
+.pricing_ammount p{
+    color: rgb(89, 87, 87);
+    margin-bottom: 3px;
+}
